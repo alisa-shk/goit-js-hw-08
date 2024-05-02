@@ -1,0 +1,36 @@
+body {
+    background-color: #FFF;
+    max-width: 1440px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery {
+    width: 1440px;
+    padding: 24px 156px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.gallery-image {
+    width: 360px;
+    height: 100%;
+}
+
+.modal {
+    background-color: rgba(46, 47, 66, 0.80);
+    width: 1112px;
+    height: 640px;
+}
